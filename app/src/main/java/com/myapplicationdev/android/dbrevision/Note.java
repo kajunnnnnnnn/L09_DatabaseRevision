@@ -26,5 +26,9 @@ public class Note {
     }
 
     //What's here?
-
+    @NonNull
+    @Override
+    public String toString() {
+        return "ID : " + id + "\nContent : " + content + "\nPriority : " + priority;
+    }
 }
